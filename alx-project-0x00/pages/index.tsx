@@ -1,6 +1,6 @@
 import Header from '../components/layout/Header';
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-gray-100 text-black">
       <Header />
@@ -15,4 +15,6 @@ export default function Home() {
       </div>
     </main>
   );
-}
+};
+
+export default Home;
