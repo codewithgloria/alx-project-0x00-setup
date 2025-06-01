@@ -39,3 +39,8 @@ export interface UserModalProps {
 export interface PillProps {
   title: string;
 }
+
+export interface ButtonProps {
+  title: string;
+  shape?: 'rounded-sm' | 'rounded-md' | 'rounded-full';
+}
