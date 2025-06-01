@@ -13,7 +13,7 @@ export default function Landing() {
 
         <div className="flex gap-4 justify-center mb-8">
           <Button title="Small Rounded" shape="rounded-sm" />
-          <Button title="Medium Rounded" shape="rounded-md" />
+          <Button title="Medium Rounded" shape="rounded-lg" />
           <Button title="Large Rounded" shape="rounded-full" />
         </div>
 
